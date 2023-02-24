@@ -1,0 +1,531 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Passions Conflict', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.body1 header{
+    background-color: rgb(255, 97, 10);
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    position: fixed;
+    width: 100%;
+}
+.body1 header .stor_icon{
+    text-align: center;
+    margin-left: -50px;
+    margin-top: 5px;
+}
+.chercher{
+    margin-right: 10px;
+    margin-left: -20px;
+}
+.chercher input{
+    height: 50px;
+    width: 70%;
+    border: 5px solid rgb(244, 162, 97);
+    background-color:rgb(244, 162, 97) ;
+    border-radius: 10px;
+    margin-bottom: -5px;
+    margin-top: 15px;
+
+}
+.chercher img{
+    margin-bottom: -10px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+header table{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 7px;
+    border-spacing: 20px;
+    margin-left: -40px;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color: black;
+}
+.bodybody1{
+    height: 650px;
+    background: url(/images/pexels-markus-spiske-128242.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 70px;
+}
+.bodybody1 h1{
+    font-size: 4rem;
+    padding-top: 150px;
+    padding-left: 50px;
+    color: white;
+}
+.bodybody1 p{
+    font-size: 1.25rem;
+    padding-top: 10px;
+    padding-left: 80px;
+    color: white;
+}
+.bodybody1 button{
+    width: 120px;
+    font-size: 1.15rem;
+    height: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 250px;
+    background-color: rgb(231, 111, 81);
+    border: 5px solid rgb(231, 111, 81);
+    border-radius: 10px;
+    margin-bottom: 170px;
+}
+.gradian1{
+    background: linear-gradient(rgba(0,0,0,0), rgb(214, 204, 194),rgb(214, 204, 194));
+    width: 100%;
+    height: 90px;  
+}
+.body2{
+    background-color: rgb(214, 204, 194);
+    height: 620px;
+}
+.body2 h1{
+    font-size: 3rem;
+    padding-top: 0px;
+    text-align: center;
+    font-weight: bolder;
+}
+.body2 h1 span{
+    color: rgb(231, 111, 81);
+}
+
+.bodybody2{
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+}
+.bodybody2 img{
+    animation: slide-from-left 1.5s linear ;
+    height: 100%;
+    float: left;
+    border-width: 5px;
+    border-style: solid;
+    border-image:black;
+    border-radius: 10px;
+    margin-right: 10px;
+    
+}
+.fromside{
+    animation: slide-from-right 1.5s linear;
+}
+.bodybody2 div h2{
+    padding-left: 620px;
+    padding-top: 50px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+.bodybody2 div p{
+    padding-left: 650px;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.bodybody2 div button{
+    width: 120px;
+    font-size: 1.15rem;
+    height: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 40px;
+    background-color: rgb(231, 111, 81);
+    border: 5px solid rgb(231, 111, 81);
+    border-radius: 10px;
+}
+.gradian2{
+    background: linear-gradient(rgba(0,0,0,0), rgb(204, 213, 174),rgb(214, 204, 194));
+    width: 150%;
+    height: 90px;
+    margin-top: 175px;
+    margin-left:-60px;
+}
+.body3 h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(231, 111, 81);
+    margin-left: 50px;
+}
+.body3 h1 span{
+    color:black;
+}
+.body3{
+    background-color: rgb(204, 213, 174);
+    height: 840px;
+}
+.bodybody3 table {
+    background-color: rgb(204, 213, 174);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-spacing: 5px;
+}
+.bodybody3 table td {
+    border:3px solid rgb(231, 111, 81) ;
+    border-radius: 10px;
+}
+.bodybody3 table img {
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.bodybody3 table button {
+    width: 50%;
+    height: 40px;
+    font-weight: bold;
+    background-color: rgb(231, 111, 81);
+    border: 3px solid rgb(231, 111, 81);
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.bodybody3 table h3 {
+    margin-bottom: 5px;
+}
+.bodybody3 table span {
+    font-size: 0.75rem;
+    text-decoration: line-through;
+}
+.gradian3{
+    background: linear-gradient(rgba(0,0,0,0), rgb(204, 213, 174),rgb(233, 237, 201));
+    width: 150%;
+    height: 90px;
+    margin-left:-60px;
+}
+.body4{
+    background-color: rgb(233, 237, 201);
+    height: 680px;
+}
+.body4 h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.body4 h1 span{
+    color: rgb(231, 111, 81);
+}
+.bodybody4{
+    height: 90%;
+}
+.bodybody4 .tablef {
+    background-color: rgb(233, 237, 201);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-spacing: 5px;
+    height: 85%;
+}
+.bodybody4 .tablef table {
+    background-color: rgb(233, 237, 201);
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-spacing: 5px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+.bodybody4 .tablef table td {
+    border:3px solid rgb(231, 111, 81) ;
+    padding-top: 5px;
+}
+.bodybody4 .tablef td {
+    border:3px solid rgb(231, 111, 81) ;
+    border-radius: 10px;
+}
+.bodybody4 .tablef img {
+    border-radius: 15px;
+}
+.bodybody4 .tablef h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.bodybody4 .tablef span {
+    font-size: 0.75rem;
+    text-decoration: line-through;
+}
+.bodybody4 .tablef p {
+    margin-bottom: 5px;
+}
+.gradian4{
+    background: linear-gradient(rgba(0,0,0,0), rgb(233, 237, 201),rgb(250, 237, 205));
+    width: 150%;
+    height: 90px;
+    margin-top: -100px;
+    margin-left:-60px;
+}
+.body5{
+    background-color: rgb(250, 237, 205);
+    height: 625px;
+}
+.bodybody4{
+    height: 90%;
+}
+.body5 h1{
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: rgb(231, 111, 81);
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.body5 h1 span{
+    color: black;
+}
+.bodybody5 .tablef {
+    background-color: rgb(250, 237, 205);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-spacing: 5px;
+    height: 95%;
+}
+.bodybody5 .tablef td {
+    border:3px solid rgb(231, 111, 81) ;
+    border-radius: 10px;
+    width: 30%;
+}
+.bodybody5 .tablef p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.gradian5{
+    background: linear-gradient(rgba(0,0,0,0), rgb(250, 237, 205),rgb(237, 237, 233));
+    width: 150%;
+    height: 90px;
+    margin-left:-60px;
+}
+.body6{
+    background-color: rgb(237, 237, 233);
+    height: 620px;
+}
+.bodybody6{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    height: 100%;
+}
+.body6 h1{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bolder;
+}
+.body6 h1 span{
+    color: rgb(231, 111, 81);
+}
+.map{
+    animation: slide-from-left 1.5s linear ;
+    height: 80%;
+    float: left;
+    border-width: 5px;
+    border-style: solid;
+    border-image:black;
+    border-radius: 10px;
+    margin-right: 10px;
+    
+}
+.bodybody6 .fromside{
+    animation: slide-from-right 1.5s linear;
+}
+.bodybody6 div h2{
+    padding-left: 780px;
+    padding-top: 50px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+.bodybody6  table{
+    margin-left: 630px;
+    font-size: 1rem;
+    font-weight: bolder;
+    width: 45%;
+    height: 90%;
+    border-spacing:20px ;
+}
+.bodybody6  table input{
+    font-size: 1rem;
+    font-weight: bolder;
+    width: 80%;
+    height: 60px;
+    border:5px solid rgb(231, 111, 81) ;
+    border-radius: 5px;
+}
+.bodybody6 div button{
+    width: 170px;
+    font-size: 1.15rem;
+    height: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 40px;
+    background-color: rgb(231, 111, 81);
+    border: 5px solid rgb(231, 111, 81);
+    border-radius: 10px;
+}
+.gradian6{
+    background: linear-gradient(rgba(0,0,0,0), rgb(237, 237, 233),rgb(213, 189, 175));
+    width: 150%;
+    height: 90px;
+    margin-left:-60px;
+    margin-top: -170px;
+}
+.body7{
+    background-color: rgb(213, 189, 175);
+    height: 625px;
+}
+.body7 h1{
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: rgb(231, 111, 81);
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.body7 h1 span{
+    color: black;
+}
+.bodybody7 .tablef td {
+    border:3px solid rgb(231, 111, 81) ;
+    border-radius: 10px;
+    width: 30%;
+}
+.bodybody7 .tablef p {
+    padding-left: 15px;
+    font-weight:bolder ;
+    margin-bottom: 15px;
+}
+.bodybody7 .tablef h4 {
+    padding-left: 15px;
+    color: darkseagreen;
+    margin-bottom: 5px;
+    font-size: 1.25rem;
+}
+.bodybody7 .tablef h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+.bodybody7 .tablef {
+    background-color: rgb(213, 189, 175);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 5px;
+    height: 95%;
+}
+.bodybody7 button {
+    width: 30%;
+    height: 40px;
+    font-weight: bold;
+    background-color: rgb(231, 111, 81);
+    border: 3px solid rgb(231, 111, 81);
+    border-radius: 4px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+.bodybody7 table image{
+    border-radius: 10px;
+} 
+footer{
+    background-color:rgb(212, 163, 115) ;
+    text-align: center;
+}
+footer table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 15px;
+    padding-top: 10px;
+}
+.pagesf{
+    border-spacing: 20px;
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+footer p{
+    padding-bottom: 20px;
+}
+footer p span{
+    color: gold;
+}
+@keyframes slide-from-left {
+    0%{
+        transform: translateX(-100px);
+    }
+    50%{
+        transform: translateX(-50px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+
+}
+@keyframes slide-from-right {
+    0%{
+        transform: translateX(100px);
+    }
+    50%{
+        transform: translateX(50px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+/* 
+.body5{
+    background-color: rgb(214, 204, 194);
+    height: 625px;
+}
+.bodybody4{
+    height: 90%;
+}
+.body5 h1{
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: rgb(231, 111, 81);
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.body5 h1 span{
+    color: black;
+}
+.bodybody5 .tablef {
+    background-color: rgb(214, 204, 194);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-spacing: 5px;
+    height: 95%;
+}
+.bodybody5 .tablef td {
+    border:3px solid rgb(231, 111, 81) ;
+    border-radius: 10px;
+    width: 30%;
+}
+.bodybody5 .tablef p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+} */
